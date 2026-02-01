@@ -6,7 +6,7 @@
 }
 
 @font-face{
-    font-family: ABeionik;
+    font-family: Aeionik;
     src: url(./fonts/Aeonik-Light.ttf);
     font-weight: 200;
 }
@@ -35,6 +35,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 #main{
@@ -72,6 +73,8 @@ section.allElems{
     overflow: hidden;
     position: relative;
     transition: all ease 0.3s;
+    cursor: pointer;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.2)  ;
 
 }
 
@@ -98,9 +101,9 @@ section.allElems{
     height: 100%;
     width: 100%;
     background-color: #381c0a;
-    padding: 40px;
-    font-size: 60px;
-    display: none;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
     position: absolute;
 }
 
@@ -108,9 +111,15 @@ section.allElems{
     position: absolute;
     right: 5%;
     background-color: red;
-    border-radius: 50%;
-    padding: 10px 11px;
-    font-size: 30px;
-    font-weight: 700;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
     border: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.back:active{
+    scale: 0.97;
 }
