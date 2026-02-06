@@ -42,10 +42,32 @@
         </section>
 
         <section class="fullElem todo-list-fullpage">
-            <h2>Your Personalised Todo List</h2>
-            <button class="back" id="0">close</button>
+            <div class="top-bar">
+                <h2>Your Personalised Task List</h2>
+                <button class="back" id="0">close</button>
+            </div>
 
-            div.todo
+            <div class="todo-container">
+                <div class="addTask">
+                    <form>
+                        <input type="text" placeholder="Enter Task">
+                        <textarea placeholder="Enter Details" name="" id="" cols="30" rows="10"></textarea>
+                        <button>Add Task</button>
+                    </form>
+                </div>
+
+                <div class="allTask">
+                    <div class="task">
+                        <h5>gym jao</h5>
+                        <button>MARK AS COMPLETED</button>
+                    </div>
+                    <div class="task">
+                        <h5>gym jao</h5>
+                        <button>MARK AS COMPLETED</button>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section class="fullElem daily-planner-fullpage">
             <h1>Daily Planner</h1>
@@ -67,4 +89,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
